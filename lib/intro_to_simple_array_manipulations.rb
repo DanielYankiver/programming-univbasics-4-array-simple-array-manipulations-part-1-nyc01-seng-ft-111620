@@ -1,5 +1,3 @@
-require 'pry'
-
 def using_push(colors_in_the_rainbow, next_color)
   colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
   next_color = "violet"
@@ -34,9 +32,12 @@ end
 ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
 
 def shift_with_args(ice_cream_brands)
-  ice_cream_brands.sift(2)
-  binding.pry
-  puts "hello"
+  ice_cream_brands.shift(2)
 end 
+=======
+  
+end
 
+
+>>>>>>> 64b69523c3c44af999558037db554ac031b68104
   
