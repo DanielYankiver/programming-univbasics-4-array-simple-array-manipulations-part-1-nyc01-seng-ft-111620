@@ -19,6 +19,7 @@ end
 dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
 
 def pop_with_args(dog_breeds)
+<<<<<<< HEAD
   dog_breeds.pop(2)
 end
 
@@ -33,4 +34,10 @@ ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "
 def shift_with_args(ice_cream_brands)
   ice_cream_brands.shift(2)
 end 
+=======
+  
+end
+
+
+>>>>>>> 64b69523c3c44af999558037db554ac031b68104
   
